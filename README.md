@@ -2,7 +2,7 @@
 
 Interface gráfica de uma calculadora funcional feita em Python com a lib PySide6. Sendo meu segundo projeto utilizando libs de interface gráfica do Qt, percebi que em comparação com o PyQt5, não há tantas diferenças além das **políticas de licença distintas** entre as duas bibliotecas.
 
-A calculadora possui as operações básicas de adição, substração, multiplicação e divisão. Entretanto, importando o módulo <code>math</code>, incluí a potenciação utilizando uma estrutura condicional e a função <code>.pow()</code>.
+A calculadora possui as operações básicas de adição, substração, multiplicação e divisão. Entretanto, importando o módulo <code>math</code>, incluí a potenciação utilizando uma estrutura condicional e a função <code>.pow()</code>. Por fim, implementei um botão "C" (clear) para limpar a conta, um botão "◀" (backspace) para limpar o último número da conta e um botão N (negative) para converter os números da conta de positivos para negativos.
 
 ## 🔧 Tecnologias utilizadas
 Python V.: 3.11.1 || PyQt5 V.: 6.5.1.1
