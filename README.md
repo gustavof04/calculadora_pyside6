@@ -1,4 +1,4 @@
-# Calculadora com <img src="https://www.pythonguis.com/images/libraries/pyside6.png" alt="PySide6" width="100">
+# Calculadora com PySide6
 
 Interface gráfica de uma calculadora funcional feita em Python com a lib PySide6. Sendo meu segundo projeto utilizando libs de interface gráfica do Qt, percebi que em comparação com o PyQt5, não há tantas diferenças além das **políticas de licença distintas** entre as duas bibliotecas.
 
