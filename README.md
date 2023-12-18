@@ -4,6 +4,8 @@ Interface gráfica de uma calculadora funcional feita em Python com a lib PySide
 
 A calculadora possui as operações básicas de adição, substração, multiplicação e divisão. Entretanto, importando o módulo <code>math</code>, incluí a potenciação utilizando uma estrutura condicional e a função <code>.pow()</code>. Por fim, implementei um botão "C" (clear) para limpar a conta, um botão "◀" (backspace) para limpar o último número da conta e um botão "N" (negative) para converter os números da conta de positivos para negativos.
 
+> Status do Projeto: ✔️ (concluído)
+
 ## 🔧 Tecnologias utilizadas
 Python V.: 3.11.1 || PySide V.: 6.5.1.1
 
