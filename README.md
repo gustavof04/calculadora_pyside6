@@ -1,42 +1,42 @@
-# Calculadora com PySide6
+# Calculator with PySide6
 
-Interface gráfica de uma calculadora funcional feita em Python com a lib PySide6.
+Graphical interface of a functional calculator made in Python with the PySide6 library.
 
-A calculadora possui as operações básicas de adição, substração, multiplicação e divisão. Entretanto, importando o módulo <code>math</code>, incluí a potenciação utilizando uma estrutura condicional e a função <code>.pow()</code>. Por fim, implementei um botão "C" (clear) para limpar a conta, um botão "◀" (backspace) para limpar o último número da conta e um botão "N" (negative) para converter os números da conta de positivos para negativos.
+The calculator has the basic operations of addition, subtraction, multiplication, and division. However, by importing the <code>math</code> module, I included exponentiation using a conditional structure and the <code>.pow()</code> function. Finally, I implemented a "C" (clear) button to clear the calculation, a "◀" (backspace) button to clear the last number in the calculation, and an "N" (negative) button to convert the numbers in the calculation from positive to negative.
 
-> Status do Projeto: ✔️ (concluído)
+> Project Status: ✔️ (completed)
 
-## 🔧 Tecnologias utilizadas
+## 🔧 Technologies Used
 Python V.: 3.11.1 || PySide V.: 6.5.1.1
 
-## ⚙️ Configurando o ambiente virtual
-* No seu terminal, navegue até a pasta raiz do projeto e execute o seguinte comando para criar um ambiente virtual:
+## ⚙️ Setting Up the Virtual Environment
+* In your terminal, navigate to the project's root folder and run the following command to create a virtual environment:
 
   ```bash
-  python -m venv nome_da_virtualenv
+  python -m venv name_of_virtualenv
   ```
 
-* Rode o comando de acordo com seu sistema para ativar seu ambiente virtual:
+* Run the command according to your system to activate your virtual environment:
 
   **Windows**
   ```bash
-  .\nome_da_virtualenv\Scripts\activate
+  .\name_of_virtualenv\Scripts\activate
   ```
   
-  **Linux ou macOS**
+  **Linux or macOS**
   ```bash
-  source nome_da_virtualenv/bin/activate
+  source name_of_virtualenv/bin/activate
   ```
 
-## 🧑‍🔬 Instalando as dependências
-* Com o ambiente virtual **ativado**, instale as dependências do projeto com o seguinte comando:
+## 🧑‍🔬 Installing Dependencies
+* With the virtual environment **activated**, install the project dependencies with the following command:
   
   ```bash
   pip install -r requirements.txt
   ```
 
-## 📂 Abrindo o projeto
-* Execute o arquivo principal da lista conforme abaixo:
+## 📂 Opening the Project
+* Run the main file from the list as follows:
 
   ```bash
   python main.py
